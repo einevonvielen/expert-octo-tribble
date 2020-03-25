@@ -5,10 +5,10 @@ class monthconvert {
 		int day1 = 8;
 		String month1 = "March";
 		int year1 = 1967;
-		rename(name1, day1, month1, year1);
+		convert(name1, day1, month1, year1);
 
 	}
-	public static void rename (String name, int day, String month, int year) {
+	public static void convert(String name, int day, String month, int year) {
 		switch(month) {
 		case "January":
 			month = "1";
